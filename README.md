@@ -4,7 +4,9 @@ cont(1) is a ...
 
 ## Synopsis
 
-(TBD)
+```
+cat very-huge-file | cont | grep ...
+```
 
 ## Install
 
