@@ -25,7 +25,7 @@ func pipe(lastPos int) int {
 	for scanner.Scan() {
 		read++
 		if read > lastPos {
-			println(scanner.Text())
+			os.Stdout.WriteString(scanner.Text() + "\n")
 		}
 	}
 	return read
